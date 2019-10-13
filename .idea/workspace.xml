@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2ab317-8afa-455c-8ab3-f3f82a19a094" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +21,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vk-app-blog3425" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.xml to json">
+  <component name="RunManager" selected="Jest.json to xml">
     <configuration name="json to xml" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -53,16 +56,16 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test function (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.js" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
       <test-names>
-        <test-name value="test function" />
+        <test-name value="renders without crashing" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.xml to json" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.json to xml" />
+        <item itemvalue="Jest.xml to json" />
+        <item itemvalue="Jest.renders without crashing" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.test function" />
-        <item itemvalue="Jest.test function (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570901519452</updated>
-      <workItem from="1570901521509" duration="14778000" />
+      <workItem from="1570901521509" duration="31617000" />
     </task>
     <servers />
   </component>
