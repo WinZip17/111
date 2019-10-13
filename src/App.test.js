@@ -10,10 +10,7 @@ it('renders without crashing', () => {
 
 
 it('xml to json', () => {
-    let xml = `<root>
-                 <B>3</B>
-                 <C>2</C>
-              </root>`;
+    let xml = `<root> <B>3</B> <C>2</C> </root>`;
     let json = {"root":{"B":{"_text":"3"},"C":{"_text":"2"}}};
     let result = new Transformer(xml);
     expect(result.xmlToJSON(xml)).toBe(json)
