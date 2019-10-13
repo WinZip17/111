@@ -20,7 +20,7 @@ it('xml to json', () => {
 
 it('json to xml', () => {
     let xml = `<_declaration><_attributes><version>1.0</version><encoding>UTF-8</encoding></_attributes></_declaration><root><B><_text>3</_text></B><C><_text>2</_text></C></root>`;
-    let json = { "_declaration": { "_attributes": { "version": "1.0", "encoding": "UTF-8" } }, "root": { "B": { "_text": "3" }, "C": { "_text": "2" } } };
+    let json = `{ "_declaration": { "_attributes": { "version": "1.0", "encoding": "UTF-8" } }, "root": { "B": { "_text": "3" }, "C": { "_text": "2" } } }`;
     let result = new Transformer(json);
     let bbb = result.jsonToXML(json);
     expect(bbb).toBe(xml)
